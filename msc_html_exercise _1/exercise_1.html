@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <form action="thank_you.html" method="GET">
+        <h1>Survey Form</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter name" minlength="6" maxlength="15"> <br> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter your password" minlength="6" maxlength="15" required> <br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id= "email" placeholder="yourname@gmail.com" required><br> <br>
+
+        <label for="phone">Phone #: </label>
+        <input type="phone" placeholder="01234567890"  max="11"> <br> <br>
+
+        <label for="birthday">Birthdate: </label>
+        <input type="date" id="birthday"> <br><br>
+
+        <label for="ques1">How happy are you with the program you have right now?</label><br>
+
+        
+        <input type="radio" id="Very Happy" name="ques1" > 
+        <label for="Very Happy">Very Happy</label>
+
+        <br><input type="radio" id="Happy" name="ques1" > 
+        <label for="Happy">Happy</label>
+
+        <br> <input type="radio" id="Not Happy" name="ques1" >
+        <label for="Not Happy">Not Happy</label>
+
+        <br><br><label for="ques2">Do you enjoy your program despite of how hard it is?</label><br>
+
+        
+        <input type="radio" id="Yes" name="ques2" > 
+        <label for="Yes">Yes</label>
+
+        <br><input type="radio" id="No" name="ques2" > 
+        <label for="No">No</label> <br>
+
+        <br><label for="title">Select sports you're good at: </label> <br>
+
+        <input type="checkbox" id="Badminton">
+        <label for="Badminton">Badminton</label>
+        
+        <br><input type="checkbox" id="Basketball">
+        <label for="Basketball">Basketball</label>
+        
+        <br><input type="checkbox" id="Volleyball">
+        <label for="Volleyball">Volleyball</label>
+
+
+
+        <!-- <br><br><input type="reset"><br> <br> -->
+        <br><br> <input type="submit"> 
+
+    </form>
+
+    
+</body>
+</html>
+

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif; /*font*/
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('imgs/backg.png') no-repeat;
+    background-size: cover;
+    background-position: center; /*center the bg*/
+}
+
+.login-container {
+    width: 420px;
+    background: white;
+    border: 2px solid rgb(68, 68, 216);
+    color: #fff;
+    border-radius: 10px; /*give curves to the form*/
+    padding: 20px; /*adds each side a white space*/
+    align-items: center;
+    
+
+}
+
+.login-container img {
+    width: 70px; /*x size of the pic*/
+    height: 70px; /*y size of the pic*/
+    margin-top: 30px; /*add white space on top*/
+    margin-left: 150px; /*add white space on left side*/
+   
+
+}
+.login-container h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5px; /*adds white space moves down*/
+    color: black;
+}
+
+.login-container .form-control {
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    padding-top: 20px; /*add white space top which moves down the element*/
+}
+
+.form-control input {
+    width: 100%;
+    margin: 10px 0; 
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;  /*inside the textbox adds white space*/
+    font-size: 15px;
+    border-color: rgb(68, 68, 216);
+}
+
+.form-control input::placeholder {
+    color: black;
+}
+
+button#loginButton{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer; /*changes the form of the cursor*/
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 20px; /*add white space above */
+    margin-bottom: 20px; /*add white space bottom */
+    background-color: rgb(105, 100, 212);
+    transition: background-color 0.3s, transform 0.2s; /*effect when clicked*/
+}
+
+button#loginButton:hover {
+    background-color: #a488c4;
+    transform: scale(1.05); /*size of the button where click*/
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /*shadow of the button when clicked*/
+}

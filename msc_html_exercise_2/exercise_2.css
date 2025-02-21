@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(234, 173, 127);
+    font-family: sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+title {
+    text-align: center;
+    font-size: 3em;
+    margin: 25px 0 30px 0;
+}
+
+div.biography h2 {
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: Georgia,
+}
+
+div.biography p{
+    text-align: left;
+    font-size:120%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family:  'Lucida Sans';
+}
+
+div.header p {
+    text-align: center;
+    font-size:1.5em;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+div.header h1 {
+    text-align: center;
+    font-size: 5em;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+figure {
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#image {
+    width: 20%; 
+    max-width: 400px; 
+    height: auto; 
+    margin: 0 auto;
+    border-radius: 10px; 
+    object-fit: cover;
+    
+}
+
+
+
+div.fig-div{
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+
+#img-caption {
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+section h3 {
+    text-align: left;
+    font-size:2em;
+    margin: 25px 0 20px 0;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 50px;
+}
+
+section.section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 1700px;
+    margin: 0 left;
+    padding: 0 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    white-space: normal;
+    max-width: 90%; 
+
+}
+
+ul li {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1em;
+    list-style-position: inside;
+    
+}
+
+blockquote {
+    max-width: 900px;
+    margin: 20px left; 
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 2; 
+    padding: 20px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal; 
+    max-width: 90%; 
+
+}
+
+.cite {
+    display: inline-block;
+    margin: 15px 0 0 40px;
+    font-size: 2em;
+}
+
+p.main-info {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
